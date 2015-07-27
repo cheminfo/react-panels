@@ -266,7 +266,8 @@ var buildStyle = function (opts) {
     /* THEME: Chemical */
     chemical: chemicalStyle,
     flexbox: flexboxStyle,
-    flexbox2: flexbox2Style
+    flexbox2: flexbox2Style,
+    visualizer: visualizerStyle
   };
 
   var theme = (opts.theme != "base") ? styles[opts.theme](opts) : {};
